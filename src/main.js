@@ -19,8 +19,8 @@ client.on('message', message => {
       case 'help':
         Commands.help(message)
         break
-      case 'balance':
-        Commands.balance(message, Zcash)
+      case 'trade':
+        Commands.trade(message)
         break
       default:
         message.reply('Jam on my bread')
